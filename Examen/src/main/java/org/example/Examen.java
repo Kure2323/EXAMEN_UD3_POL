@@ -67,11 +67,13 @@ public class Examen {
 
 
                 if (error == true) {
-
+                    System.out.println("Introduce corréctamente los valores, separados por - y sin espacios.");
+                    return;
                 }
 
 
             }
+            //Busca repetidos en el cartón y si hay salta mensaje
             int r = 0;
 
             for (int k = 0; k < matriz.length; k++) {
@@ -120,19 +122,5 @@ public class Examen {
                 }
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-    }
-    public void Bolas_del_sorteo() {
-
     }
 }
